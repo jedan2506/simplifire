@@ -1,0 +1,290 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #262626;
+}
+
+.button1
+  {
+      background-color:rgba(145, 162, 255, 0.6);
+      border: none;
+      color: white;
+      padding: 10px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+  }
+.button1:hover {
+  background-color:rgba(145, 162, 255);
+  color: #ffffff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+  background-color: #262626;
+  border: 2px solid rgba(145, 162, 255);
+  color: rgba(145, 162, 255);
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #91a2ff;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+html{
+scroll-behavior: smooth;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    position:sticky;
+    background-color: #262626;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+
+    color: #91a2ff;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+  
+    padding: 6px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 300px;
+    font-size: 17px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 12px;
+    font-size: 15px;
+    float: left;
+    width: 500px;
+    background: #111111;
+    border: hidden;
+    outline: none;
+  }
+
+  form.example  input:active{
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 40px;
+    height: 42px;
+    margin-top: 15px;
+    padding: 12px;
+    background: #91a2ff;
+    border: #91a2ff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  }
+  
+  form.example button:hover {
+    background: #bbc5ff;
+    
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.fa-search{
+    margin-left: -4px;
+}
+
+ul.nav {
+  position:sticky; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #91a2ff;
+  margin-left: -8px;
+  margin-right: -8px;
+  box-shadow: 0 4px 8px 0 #b1717133, 0 6px 20px 0 #00000030;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:12.3vw;
+  transition-duration:  0.4s;
+  font-weight:bold;
+}
+
+li.nav a:hover {
+  background-color: #121421;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.077), 0 17px 50px 0 rgba(0, 0, 0, 0.071);
+  border-radius: 20px;
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.096), 0 17px 50px 0 rgba(0, 0, 0, 0.063);
+  width: 300px;
+  margin: 15px;
+  vertical-align: bottom;
+  text-align: center;
+  line-height: 75px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.flex-container > div:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.218), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text], select, textarea 
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] 
+{
+  background-color: #91a2ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #283371;
+  
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.column
+{
+  float: left;
+  width: 50%;
+  /* margin-top: -550px; */
+  padding: 20px;
+
+}
+
+.columns
+{
+  /* float: right;
+  width: 60%; */
+  margin-top: -550px;
+  padding: 20px;
+  margin-right:150px;
+  margin-left:600px;
+}
+
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.upload-button{
+      background-color:rgba(145, 162, 255, 0.6);
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 9px;
+      transition-duration: 0.4s;
+      text-decoration: none;
+}
+
+.upload-button:hover{
+      background-color:#000000;
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 9px;
+      transition-duration: 0.4s;
+      text-decoration: none;
+}
